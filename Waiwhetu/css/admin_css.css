@@ -1,0 +1,118 @@
+* {
+    
+}
+#nav{
+    margin-right: 10px;
+}
+#nav li a:hover{
+    background-color: #2c3e50;
+    color:#A9A9A9;
+}
+#nav li a:active{
+    background-color: #2c3e50;
+     color:	#00FF00;
+
+}
+#nav li a{
+    color:white;
+    vertical-align: middle;
+  
+}
+#navbar{
+    background-color: #2c3e50;
+    border-bottom:2px solid #282830;
+    border-radius: 0px;
+   margin: 0px !important;
+    padding: 0px !important;
+   border-radius: 0px !important;
+}
+
+
+
+
+
+/*--------------------------------------------*/
+/* nav right notification and logout*/
+/*--------------------------------------------*/
+
+/* notification icon */
+.noti_list_text span{
+    color:#FF8C00;
+    font-weight: bold;
+}
+.noti_list_text{
+    font-size: 12px;
+}
+
+    #mail_mg 
+    {
+        padding: 3px 7px 3px 7px;
+        background: #cc0000;
+        color: #ffffff;
+        font-weight: bold;
+        margin-left: 20px;
+        border-radius: 9px;
+        -moz-border-radius: 9px; 
+        -webkit-border-radius: 9px;
+        position: absolute;
+        margin-top: 2px;
+        font-size: 11px;
+    }
+  
+
+.popover{
+    width:400px !important;
+    position: absolute !important;
+    margin-right: 10px !important;
+}
+
+
+
+
+
+/*-------------------------------------------------*/
+/* post image */
+/*-------------------------------------------------*/
+
+@media screen and (max-width: 680px) {
+    table{
+        
+        overflow: scroll;
+    }
+    #view_image{
+        width:50px !important;
+    }
+   
+}
+
+
+
+
+
+
+
+/*------------------------------------------*/
+/*-------- View all Post -------*/
+/*------------------------------------------*/
+
+table{
+   background-color: #ecf0f5 !important;
+}
+#view_image{
+    width:200px;
+}
+
+
+#footer{
+ 
+   
+}
+
+
+/*----------------------------------*/
+/*---------notify post---------*/
+/*----------------------------------*/
+
+#noti_post_image{
+    width:30px;
+}

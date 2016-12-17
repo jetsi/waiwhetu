@@ -1,0 +1,342 @@
+*{
+    padding:0px;
+    margin:0px;
+    border:0px;
+    box-sizing: border-box;
+}
+
+#close a{
+    color:white;
+
+}
+
+.fa-exclamation-circle{
+    color:	#FF7F50;
+}
+
+
+
+#nav li #user_info a{
+    color:black;
+}
+
+
+
+
+
+/*----------------------------------------------------*/
+/*---------Login design-------*/
+/*----------------------------------------------------*/
+body{
+    background-color: #ECF0F1;
+}
+#login_panel{
+    background-color: rgba(20,40,50,0.5);
+}
+
+.panel-body h1 {  
+    font-family: 'Lobster Two', cursive;text-align:center;/*header*/
+    margin-bottom: 34px;
+    color: white;
+}
+
+#login .input-group .input-group-addon{
+
+    color:#2980b9;
+}
+
+#login .input-group #submit {
+font-family: 'Lobster Two', cursive;text-align:center;
+    font-weight: bold;
+    font-size: 18px;
+letter-spacing:2px;
+}
+
+#login .input-group p{                  /*forgot password*/
+    color:white;
+}
+
+#login .input-group p a{               /*forgot password*/
+    color:#7f8c8d;
+}
+
+#login .input-group {
+    margin-bottom: 25px;
+
+}
+
+#login .input-group input{
+    padding:20px;
+}
+/*----------------------------------------------------*/
+/*---------Login design-------*/
+/*----------------------------------------------------*/
+
+.form-register{
+    box-shadow: 0px 0px 2px 0px;
+    padding:10px;
+}
+.regi-form{
+    padding:10px 50px;
+}
+
+
+
+/*----------------------------------------------------*/
+/*-----header user css------------*/
+/*----------------------------------------------------*/
+#nav ul{
+    margin-right: 10px;
+}
+#nav{
+    margin-right: 0px;
+    background-color: #27ae60;
+    
+}
+#nav li,#nav li a,#nav a{
+    color:white;
+   
+}
+
+#nav li a:hover{
+    background-color: #34495e;
+      margin-bottom: -1px;
+}
+#nav li a{
+     font-size: 18px;
+    margin-bottom: -1px;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    background-color: #2c3e50 !important;
+ 
+}
+
+
+/*----------------------------------------------------*/
+/******** user post content ****************/
+/*----------------------------------------------------*/
+
+.container{
+    background-color: #ecf0f1 !important;
+     margin-left: 12px !important;
+    
+}
+#user_image{   /* user profile image*/
+    width:100px;
+     height:100px;
+   border-radius: 60px ;
+   margin-top:20px;
+    border:3px solid #ccc;
+}
+.user-profile{
+   
+    
+}
+
+.user-profile-div{
+background-color:#ecf0f1;
+    margin-left: -12px;
+}
+
+.user_profile{
+   /* links */
+}
+#post_modal_header{
+    background-color: green;
+    color:white;
+}
+#post_modal_header_warning{
+    background-color: #d35400;
+    color:white;
+}
+
+#post_user_image{  /* user image on the top of post*/
+    width:30px;
+    height:30px;
+    
+    margin-top:15px;
+}
+.post_image{
+    width:100%;
+    height:auto;
+}
+.post_author_name{    /* user name on the top of post*/
+    color:#2980b9;
+    font-size: 15px;
+    margin-left:5px;
+    font-family: 'Montserrat', sans-serif;
+}.post_author_name p{    /* date under user name on the top of post*/
+   font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 40px;
+    margin-top:-10px;
+    color:grey;
+}
+#view_image{   /* use to view image in small size in user setting */
+    width:50px;
+    height:50px;
+}
+#post_author{
+    color:#2980b9;
+    font-size: 15px;
+    
+}
+.user_post p{
+    word-wrap: break-word;
+    text-align: justify;
+}
+#comment_icon{
+    margin-right:1px;
+    margin-left: 15px;
+
+}
+.comment_label{
+          color:#2980b9;
+}
+.comment_label:hover{
+          color:#16a085;
+}
+#comment_count{
+    font-size: 14px;
+    color:#f39c12;
+}
+
+
+
+
+
+@media screen and (min-width: 480px) {
+    #post_title{
+    font-family: 'Squada One', cursive;color:#104E8B;margin-top:-2px;
+    }
+    #post_img_content{
+        background-color: grey;
+    }
+    #post_img{
+        margin:auto;
+    }
+    #comment_bar{
+        background-color: #F5F5F5;padding:15px 10px 0px 10px;
+    }
+}
+
+
+
+
+/*------------------------------------------------------------*/
+/*--------------Post Image to View in Large -------------------*/
+/*-------------- -------------------*/
+/*------------------------------------------------------------*/
+.post_image_div{
+    border-radius: 5px;
+   padding: 0px !important;
+    position: relative !important;
+  height: 200px;
+    overflow: hidden; 
+    margin-bottom: 30px;
+ 
+}
+.post_image {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.post_image:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+
+.close_image{
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.close_image:hover,
+.close_image:focus {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+
+/*----------------------------------------------------------*/
+/*------------Edit Post POP UP Form ----------------*/
+/*----------------------------------------------------------*/
+
+#delete_post_title{
+     color:red !important;
+    text-align: center !important;
+}
+#edit_post_title{
+    text-align: center !important;
+   color:#ecf0f1;
+}
+.modal-header{
+    background-color: #2C3E50 !important;
+}
+
